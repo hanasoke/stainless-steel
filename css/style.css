@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+	font-family: "Open Sans";
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+/* Navbar */ 
+
+.navbar .navbar-brand {
+	font-family: "Open Sans Bold";
+	font-size: 24px;
+}
+
+.navbar-nav {
+	font-family: 'Arimo', sans-serif;
+}
+
+/* Carousel */
+img {
+  height: 600px;
+}
+
+.carousel-edit img {
+	border-radius: 2%;
+}
+
+.carousel-edit {
+  background-color: rgb(51, 51, 51) !important;
+}
+
+.carousel-item h1 {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+
+}
+
+.carousel-item p {
+	font-size: 20px;
+	font-family: 'Spartan';
+	color: white;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+/* About */
+
+.about {
+	margin-top: 2%;
+}
+
+.about h1, .product h1, .contact h2 {
+	font-family: "Open Sans Bold";
+	font-size: 40px;
+}
+
+.about p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+}
+
+/* Product */
+.product {
+	background-color: rgb(226, 224, 224);
+	margin-top: 2%;
+}
+
+.product h1 {
+	color: white;
+}
+
+.product hr {
+	width: 20%;
+	height: .5rem;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.product .card-body:hover {
+	color: white;
+	background-color: rgb(139, 138, 138);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+
+.contact .card-title {
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact .card-body {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	text-indent: 20px;
+}
+
+.list-group li:first-child {
+	font-size: 30px;
+	font-family: 'Arimo', sans-serif;
+}
+
+.list-group li {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-group label {
+	font-family: 'Arimo', sans-serif;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+}
